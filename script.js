@@ -2,7 +2,6 @@
 		name : "Shashank",
 	};
 	Object.prototype.getkeys = function(){
-		return Object.keys();
+		return Object.keys(this);
 	};
-	console.log(getkeys());
 

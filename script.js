@@ -1,7 +1,7 @@
 	let student = {
-		name : "Shashank",
+		name : 'Shashank',
 	};
-	Object.prototype.getkeys = function(){
+	Object.prototype.getKeys = function(){
 		return Object.keys(this);
 	};
 
